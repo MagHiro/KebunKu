@@ -1,0 +1,10 @@
+.artikell {
+    overflow: hidden;
+    max-height: 8rem;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  }
+  
+  .artikell.full {
+    max-height: 100rem;
+    transition: max-height 3s ease-in-out;
+  }

@@ -41,7 +41,7 @@ export default function Home6() {
                     </ul>
                 </section>
 
-                <a href="#" className='text-primary text-center mt-7'>
+                <a href="#!" className='text-primary text-center mt-7'>
                     Kunjungi Blog Kebunku
                 </a>
             </div>

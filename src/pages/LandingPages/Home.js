@@ -13,7 +13,7 @@ const Navbar = React.lazy(() => import('./../../components/Navbar'));
 export default function Home() {
     return(
         <>
-        <Navbar />
+        {/* <Navbar /> */}
         <Home1 />
         <Home2 />
         <Home3 />

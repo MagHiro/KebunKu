@@ -5,6 +5,7 @@ import commentbtn from "../../../assets/commentbtn.svg";
 import bookmark from "../../../assets/bookmark.svg";
 import morebtn from "../../../assets/morebtn.svg";
 import sharebtn from "../../../assets/sharebtn.svg";
+import "./forum.css";
 import React, { useEffect } from "react";
 
 export default function Post() {
@@ -15,14 +16,16 @@ export default function Post() {
 
     readmore.onclick = function () {
       expanded.classList.toggle("bg-gradient-to-t");
-      article.classList.toggle("readmore");
+      article.classList.toggle("full");
+      readmore.classList.add("hidden");
     };
   }, []);
 
   return (
     <div className="flex flex-col font-display border max-w-xl w-full rounded-md">
       <div className="postcard font-display block rounded-b-none">
-        <header className="flex gap-y-6 flex-col">
+        <header className="flex gap-y-4 flex-col">
+          <button className="bg-[#E1F2EF] text-primary text-xs font-bold px-4 py-2 rounded-md max-w-fit w-full">INDONESIA SATU</button>
           <h2 className="font-medium text-xl">
             Bagaimana cara menanam bibit buah mangga dengan benar?
           </h2>
@@ -39,7 +42,7 @@ export default function Post() {
         <article className="mt-5 relative ">
           <p
             id="artikel"
-            className="text-left text-sm readmore overflow-hidden transition-all duration-300"
+            className="artikell text-left text-sm"
           >
             Amet at quis et, nibh facilisi viverra. Fringilla convallis ac
             viverra sed senectus sem enim. Eget et pharetra sapien sed est
@@ -57,11 +60,11 @@ export default function Post() {
           </p>
           <div
             id="expanded"
-            className="absolute bg-gradient-to-t from-white py-7 px-40 bottom-0 "
+            className="absolute bg-gradient-to-t from-white py-7 px-40 bottom-0 left-0 right-0"
           >
             <button
               id="readmore"
-              className="border bg-white rounded-xl px-3 py-1 text-center text-sm z-20 "
+              className="border bg-white rounded-xl px-3 py-1 text-center text-sm z-20 transition-all duration-200 ease-in-out"
             >
               Lanjutkan Membaca
             </button>

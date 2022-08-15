@@ -20,12 +20,12 @@ export default function footer(){
                         </header>
                         <nav>
                             <ul className='flex flex-col text-white gap-y-3 text-sm'>
-                                <li><a href="#" className='text-white'>Tentang Kebunku</a></li>
-                                <li><a href="#" className='text-white'>Panduan Kebunku</a></li>
-                                <li><a href="#" className='text-white'>Syarat dan Ketentuan</a></li>
-                                <li><a href="#" className='text-white'>kebijakan Privasi</a></li>
-                                <li><a href="#" className='text-white'>Keamanan</a></li>
-                                <li><a href="#" className='text-white'>Karir</a></li>
+                                <li><a href="#!" className='text-white'>Tentang Kebunku</a></li>
+                                <li><a href="#!" className='text-white'>Panduan Kebunku</a></li>
+                                <li><a href="#!" className='text-white'>Syarat dan Ketentuan</a></li>
+                                <li><a href="#!" className='text-white'>kebijakan Privasi</a></li>
+                                <li><a href="#!" className='text-white'>Keamanan</a></li>
+                                <li><a href="#!" className='text-white'>Karir</a></li>
                             </ul>
                         </nav>
                     </div>
