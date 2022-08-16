@@ -7,6 +7,7 @@ const FJB = React.lazy(() => import('./pages/NormalPages/FJB/FJB'));
 const Blog = React.lazy(() => import('./pages/NormalPages/Blog/Blog'));
 const NormalNavbar = React.lazy(() => import('./components/NormalNavbar'));
 const Footer = React.lazy(() => import('./components/Footer'));
+const Maintanance = React.lazy(() => import('./components/Maintanance'));
 
 
 
@@ -16,9 +17,10 @@ function App() {
         <NormalNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/forum" element={<Forum />} />
+          {/* <Route path="/forum" element={<Forum />} />
           <Route path="/marketplace" element={<FJB />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog" element={<Blog />} /> */}
+          <Route path="*" element={<Maintanance />} />
         </Routes>
         <Footer />
       </div>

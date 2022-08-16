@@ -5,13 +5,13 @@ export default function Home8() {
 
     return (
         <div className='bg-[#F9FAFB]'>
-            <div className="max-w-6xl mx-auto w-full font-display flex flex-col justify-center px-5 py-10">
+            <div className="max-w-6xl md:mx-auto w-full font-display flex flex-col justify-center px-5 py-10">
                 <header>
                     <h2 className='text-center font-semibold text-2xl'>Produk Komunitas</h2>
                 </header>
 
-                <section className='mt-10 max-w-6xl w-full mx-auto flex gap-x-10 items-center bg-gradient-to-l from-[#05A685] to-[#22C58A] py-5 px-10 rounded-xl'>
-                    <div className='flex flex-col gap-y-7 max-w-[16rem] w-full text-center justify-center'>
+                <section className='mt-10 max-w-6xl w-full mx-auto flex flex-col md:flex-row gap-x-10 items-center bg-gradient-to-l from-[#05A685] to-[#22C58A] py-5 px-10 rounded-xl'>
+                    <div className='flex flex-col gap-y-7 md:max-w-[16rem] w-full text-center justify-center'>
                         <div className='flex items-center gap-x-3 justify-center'>
                             <img src={Marketplace} alt=""/>
                             <h2 className='text-2xl font-bold text-white'>Marketplace</h2>
@@ -26,7 +26,7 @@ export default function Home8() {
                         </a>
                     </div>
 
-                    <div className='flex gap-x-4'>
+                    <div className='flex flex-col md:flex-row gap-y-4 md:gap-y-0 md:gap-x-4 mt-9 md:mt-0'>
                         <div id='card' className='flex flex-col p-2 gap-y-1 bg-white rounded-md'>
                             <img src={Produk} alt=""/>
                             <section id='produkinformation' className='flex flex-col gap-y-1'>

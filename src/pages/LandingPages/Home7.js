@@ -18,7 +18,7 @@ export default function Home7() {
                     <h2 className='text-center font-semibold text-2xl'>Mitra Kebunku</h2>
                     <p className='text-sm text-center mt-6'>Non tellus donec elit risus vel pharetra. Lectus egestas imperdiet fringilla ornare cras sem ultrices. Fermentum.</p>
                     <div id='mitralogo' className='flex flex-col justify-center pt-10 gap-y-8'>
-                        <div className='flex space-x-6 justify-center'>
+                        <div className='flex flex-col gap-y-6 md:gap-y-0 items-center md:flex-row md:space-x-6 md:justify-center'>
                             <img src={AMD} alt=''/>
                             <img src={Ebay} alt=''/>
                             <img src={Medium} alt=''/>
@@ -32,10 +32,10 @@ export default function Home7() {
                     </div>
                 </header>
 
-                <section className='mt-10 max-w-[60rem] w-full mx-auto flex gap-x-14 items-center'>
+                <section className='mt-10 max-w-[60rem] w-full mx-auto flex flex-col md:flex-row gap-x-14 items-center'>
                     <img src={Mitrafoto} alt=""/>
                     <div className='flex flex-col gap-y-5'>
-                        <h2 className='text-left font-bold text-2xl text-primary'>Kata Mereka</h2>
+                        <h2 className='text-left font-bold text-2xl text-primary mt-5 md:mt-0'>Kata Mereka</h2>
                         <ul className="grid grid-rows-2 gap-8 list-none">
                             <li className='flex bg-white rounded-xl shadow-xl relative'>
                                 <span className='w-full text-left p-5 flex flex-col gap-4'>
@@ -44,7 +44,7 @@ export default function Home7() {
                                         <h6 className='font-bold text-sm'>Mang Ubed - Petani Lokal</h6>
                                         <span className='text-sm text-[#858585]'>Anggota Sejak 2022</span>
                                     </span>   
-                                    <img alt='' src={Quotes} className="absolute -right-7"/>    
+                                    <img alt='' src={Quotes} className="absolute -right-4 md:-right-7"/>    
                                 </span>
                             </li>
                             <li className='flex bg-white rounded-xl shadow-xl relative'>
@@ -54,7 +54,7 @@ export default function Home7() {
                                         <h6 className='font-bold text-sm'>Mang Aso - Petani Lokal</h6>
                                         <span className='text-sm text-[#858585]'>Anggota Sejak 2022</span>
                                     </span>   
-                                    <img alt='' src={Quotes} className="absolute -right-7"/>    
+                                    <img alt='' src={Quotes} className="absolute -right-4 md:-right-7"/>    
                                 </span>
                             </li>
                         </ul>

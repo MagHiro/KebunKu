@@ -8,7 +8,7 @@ export default function footer(){
     return (
         <div id="footer" className='bg-gradient-to-l from-[#05A685] to-[#22C58A]'>
             <div className="max-w-6xl mx-auto w-full font-display flex flex-col justify-center px-5 py-10">
-                <section className='w-full mx-auto flex items-start py-5 px-10 rounded-xl gap-20'>
+                <section className='w-full mx-auto flex flex-col md:flex-row items-start py-5 px-10 rounded-xl gap-20'>
                     <div id="section1" className='flex flex-col gap-y-5 items-start justify-start max-w-xs w-full'>
                         <img src={footerlogo} alt=""/>
                         <h1 className='text-2xl font-bold text-white'>Kebunku</h1>

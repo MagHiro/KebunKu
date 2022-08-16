@@ -40,7 +40,7 @@ export default function NormalNavbar() {
   useEffect(() => {});
 
   return (
-    <div className="bg-white">
+    <div className="bg-white font-display">
       <div className="max-w-6xl mx-auto">
         <nav className="flex justify-between items-center py-3">
           {/* logonav sebelah kiri */}

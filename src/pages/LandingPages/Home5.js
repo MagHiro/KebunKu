@@ -9,7 +9,7 @@ export default function Home5() {
                     <h2 className='text-center font-semibold text-2xl'>Tanaman</h2>
                 </header>
                 <section className='mt-10'>
-                    <ul className="grid grid-cols-5 grid-flow-col list-none">
+                    <ul className="grid grid-cols-2 md:grid-cols-5 grid-flow-row list-none gap-2">
                         <li className='flex flex-col gap-y-10 items-center'>
                             <div className='bg-[#F9FAFB] py-2 px-2 rounded-md'>
                                 <img src={eclipse} alt=""/>
